@@ -1,0 +1,51 @@
+# Ignore checkpoints folder
+checkpoints/
+
+# Python cache and bytecode files
+__pycache__/
+*.py[cod]
+
+# Virtual environment folder
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Log files
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled object files
+*.o
+*.so
+
+# Ignore large data files (adjust this if needed)
+data_input/*
+data_output/*
+
+# Ignore test results
+*.test
+
+# Ignore any files related to IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Ignore any shell script or executable backup files
+*.sh~
+*.bak
+
+# Git specific ignore
+.git/
+
+# Node.js specific (if relevant)
+node_modules/
+
+# Other backup files or temp files
+*.bak
+*.tmp
+*~
